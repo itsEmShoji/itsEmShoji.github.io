@@ -7,3 +7,9 @@ h1,p{
   font-family: Comic Sans;
 }
 
+#centerwrap { 
+     position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -500px; 
+    }  
