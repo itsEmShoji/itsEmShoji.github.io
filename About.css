@@ -13,3 +13,7 @@ h1,p{
     left: 30%;
   margin-left: -500px; 
     }  
+
+span.hi{
+  color:red;
+}
