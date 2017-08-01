@@ -7,8 +7,8 @@ div{
 h1 {
 display: inline;
 position: relative;
-letter-spacing: 5px; /* This will push it together giving us a nice 3D vibe */
-color: rgba(0,0,255,0.5); /* This will give us a blue at 50% opacity */
+letter-spacing: 10px;
+color: rgba(0,0,255,0.5);
 }
 
 p{
