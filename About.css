@@ -1,5 +1,7 @@
 div{
   margin: 20px auto;
+  text-align: center;
+  background-color: #87CEEB;
 }
 
 h1 {
@@ -14,11 +16,6 @@ content: “Hi I'm Emily!”;
 position: absolute;
 left: 8px; top: 6px; /* These are aligning it to be where we’d like relative to the last word */
 color: rgba (255,0,0,0.5); /* This gives us a red at 50% opacity */
-}
-
-body{
-  text-align: center;
-  background-color: #87CEEB;
 }
 
 p{
