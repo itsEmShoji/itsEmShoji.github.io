@@ -1,6 +1,6 @@
 div{
   margin: 0px auto;
-  border: 5px dashed white;
+  border: 5px solid double white;
   text-align: center;
   background-color: #87CEEB;
 }
