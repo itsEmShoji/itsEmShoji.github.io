@@ -23,7 +23,7 @@ span.hi{
 }
 
 #fb{
-  display: inline;
+  display: inline-block;
   font-size: 30px;
   font-family: "Comic Sans MS";
   
