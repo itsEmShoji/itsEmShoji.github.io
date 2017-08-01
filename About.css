@@ -1,8 +1,3 @@
-body{
-  text-align: center;
-  background-color: #87CEEB;
-}
-
 h1 {
 display: inline;
 position: relative;
@@ -11,10 +6,15 @@ color: rgba(0,0,255,0.5); /* This will give us a blue at 50% opacity */
 }
 
 h1:after {
-content: “Anaglyph”;
+content: “Hi I'm Emily!”;
 position: absolute;
 left: 8px; top: 6px; /* These are aligning it to be where we’d like relative to the last word */
 color: rgba (255,0,0,0.5); /* This gives us a red at 50% opacity */
+}
+
+body{
+  text-align: center;
+  background-color: #87CEEB;
 }
 
 p{
