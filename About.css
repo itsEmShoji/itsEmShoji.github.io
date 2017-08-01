@@ -3,12 +3,8 @@ body{
   align: center;
 }
 
-h1{
+h1,p{
   color: blue;
-}
-
-p{
-  color: magenta;
-  font-family: Arial;
+  font-family: Comic Sans;
 }
 
