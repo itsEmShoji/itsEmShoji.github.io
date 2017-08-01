@@ -26,11 +26,13 @@ span.hi{
   display: inline-block;
   font-size: 30px;
   font-family: "Comic Sans MS";
+  margin: 0px 0px 0px 7px;
 }
 
 #fb{
   display: inline-block;
   font-size: 30px;
   font-family: "Comic Sans MS";
+  margin: 0px 7px 0px 0px;
 }
 
