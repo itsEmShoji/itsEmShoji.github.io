@@ -22,14 +22,7 @@ span.hi{
   color: black;
 }
 
-#fb{
-  display: inline-block;
-  font-size: 30px;
-  font-family: "Comic Sans MS";
-  
-}
-
-#ig{
+a{
   display: inline-block;
   font-size: 30px;
   font-family: "Comic Sans MS";
