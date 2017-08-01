@@ -3,7 +3,14 @@ body{
   background-color: #87CEEB;
 }
 
-h1,p{
+h1 {
+display: inline;
+position: relative;
+letter-spacing: -5px; /* This will push it together giving us a nice 3D vibe */
+color: rgba(0,0,255,0.5); /* This will give us a blue at 50% opacity */
+}
+
+p{
   color: blue;
   font-family: "Comic Sans MS";
 }
