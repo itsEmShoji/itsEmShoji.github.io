@@ -9,4 +9,5 @@ h1,p{
 
 span.hi{
   color:red;
+  text-shadow: 2px 2px #ff0000
 }
