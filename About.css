@@ -8,6 +8,6 @@ h1,p{
 }
 
 span.hi{
-  color: black;
-  text-shadow: 2px 2px #ff0000
+  color: red;
+  text-shadow: 2px 2px black;
 }
