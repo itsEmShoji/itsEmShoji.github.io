@@ -1,6 +1,9 @@
 function fadeOutElement(){
-  $('a').on('click', fadeOut());
+  $(h1).animate({fontSize: '30px'}, 2000)
 }
 
-fadeOutElement();
+function setup(){
+  $(h1).click(fadeOutElement());
+}
+
 $(document).ready(setup);
