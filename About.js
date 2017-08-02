@@ -1,9 +1,9 @@
-function animateImage(){
-  $('img').animate({fontSize: "30px"}, 2000)
+function animateHeader(){
+  $('h1').animate({fontSize: "30px"}, 2000)
 }
 
 function setup(){
-  $('img').click(animateHeader());
+  $('h1').click(animateHeader());
 }
 
 $(document).ready(setup);
