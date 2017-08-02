@@ -13,6 +13,7 @@ h1 {
   font-size: 100px;
   animation-name: bounceIn;
   animation-duration: 4s;
+  animation-delay: 2s;
 }
 
 p{
