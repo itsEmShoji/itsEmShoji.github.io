@@ -1,1 +1,2 @@
-alert("welcome to my page");
+links = $('a');
+links.fadeOut();
