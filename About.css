@@ -15,6 +15,12 @@ h1 {
   animation-duration: 4s;
 }
 
+div{
+  background-color: #b2d9fb;
+  border-color: white;
+  border-radius: 30px;
+}
+
 p{
   color: #007FFF;
   font-family: "Comic Sans MS";
