@@ -12,3 +12,9 @@ body{
 img{
   align-content: center;
 }
+
+div{
+  background-color: #b2d9fb;
+  border-color: white;
+  border-radius: 30px;
+}
