@@ -6,7 +6,7 @@ h1{
 body{
   font-family: 'MS Comic Sans';
   align-content: center;
-  background-color: pink;
+  background-color: #87cefa;
 }
 
 img{
@@ -17,4 +17,5 @@ div{
   background-color: #b2d9fb;
   border-color: white;
   border-radius: 30px;
+  width: 30px;
 }
