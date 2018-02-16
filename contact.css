@@ -1,0 +1,49 @@
+#header{
+    background-image: url(images/header.jpg);
+}
+
+body {
+  margin: 0px auto;
+  border: 5px solid double white;
+  text-align: center;
+  background-color: white;
+}
+
+h1 {
+  display: inline;
+  position: relative;
+  font-family: 'Allura';
+  color: black;
+  font-size: 100px;
+}
+
+#link {
+    font-family: Helvetica;
+}
+
+img{
+    margin-top: 50px;
+}
+
+p {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#text {
+    margin-top: 50px;
+    font-family: 'Dosis', sans-serif;
+    font-size: inherit;
+}
+
+address {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+div.address {
+    display: inherit;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-size: inherit;
+}

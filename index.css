@@ -1,21 +1,36 @@
-h1{
-  font-family: 'Comic Sans MS';
-  color: #671BEB;
+#header{
+    background-image: url(images/header.jpg);
 }
 
-body{
-  font-family: 'Comic Sans MS';
-  align-content: center;
-  background-color: #87cefa;
+body {
+  margin: 0px auto;
+  border: 5px solid double white;
+  text-align: center;
+  background-color: white;
 }
 
-img{
-  align-content: center;
+h1 {
+  display: inline;
+  position: relative;
+  font-family: 'Allura';
+  color: black;
+  font-size: 100px;
 }
 
-div{
-  background-color: #b2d9fb;
-  border-color: white;
-  border-radius: 30px;
-  width: 900px;
+#emily{
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+li {
+  color: black;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+p.about {
+    color: black;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
 }
