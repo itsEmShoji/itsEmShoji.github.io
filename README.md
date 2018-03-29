@@ -1,1 +1,1 @@
-# itsEmShoji.github.io
+# Repository for itsEmShoji.github.io web page

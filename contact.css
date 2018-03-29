@@ -1,5 +1,5 @@
 #header{
-    background-image: url(images/header.jpg);
+    background-image: url(images/view.jpg);
 }
 
 body {
@@ -21,7 +21,7 @@ h1 {
     font-family: Helvetica;
 }
 
-img{
+img.mail{
     margin-top: 50px;
 }
 
@@ -33,12 +33,14 @@ p {
 #text {
     margin-top: 50px;
     font-family: 'Dosis', sans-serif;
-    font-size: inherit;
+    font-size: 20px;
+
 }
 
 address {
     margin-top: 25px;
     margin-bottom: 50px;
+    font-size: 20px;
 }
 
 div.address {
