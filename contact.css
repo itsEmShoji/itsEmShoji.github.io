@@ -7,18 +7,16 @@ body {
   border: 5px solid double white;
   text-align: center;
   background-color: white;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
 }
 
 h1 {
   display: inline;
   position: relative;
-  font-family: 'Allura';
+  font-family: 'Dosis', sans-serif;
   color: black;
   font-size: 100px;
-}
-
-#link {
-    font-family: Helvetica;
 }
 
 img.mail{

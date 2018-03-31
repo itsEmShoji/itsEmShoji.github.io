@@ -7,14 +7,14 @@ body {
   border: 5px solid double white;
   text-align: center;
   background-color: white;
-  font-size: 20px;
   font-family: 'Dosis', sans-serif;
+   font-size: 20px;
 }
 
 h1 {
   display: inline;
   position: relative;
-  font-family: 'Allura';
+  font-family: 'Dosis', sans-serif;
   color: black;
   font-size: 100px;
 }
@@ -27,7 +27,11 @@ div.container{
      width: 700px;
 }
 
-p.nebuladescrip p.pokeAPIdescrip {
+p.nebuladescrip p.pokeAPIdescrip p.mazeBalldescrip{
     margin-top: 10px;
     width: 700px;
+}
+
+img.mazeDemoGif {
+    height: 400px;
 }
