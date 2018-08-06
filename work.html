@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Emily Shoji - Contact</title>
+	<title>Emily Shoji - Projects</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -68,9 +68,9 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="services.html">Skills</a></li>
-							<li><a href="work.html">Projects</a></li>
+							<li class="active"><a href="work.html">Projects</a></li>
 							<li><a href="about.html">About</a></li>
-							<li class="active"><a href="contact.html">Contact</a></li>
+							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -91,48 +91,107 @@
 				</div>
 			</div>
 		</header>
-
-		<div id="colorlib-contact">
+		<div id="colorlib-work">
 			<div class="container">
 				<div class="row text-center">
-					<h2 class="bold">Contact</h2>
+					<h2 class="bold">Projects</h2>
 				</div>
 				<div class="row">
 					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-						<span>Contact</span>
-						<h2>Contact Me</h2>
+						<span>Portfolio</span>
+						<h2>Projects</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
 						<div class="rotate">
-							<h2 class="heading">Contact</h2>
+							<h2 class="heading">Portfolio</h2>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12 col-md-offset-1">
-						<div class="row">
-							<div class="col-md-6 animate-box">
-								<ul class="contact-info">
-									<li><span><i class="icon-envelope2"></i></span>emily.shoji@gmail.com</li>
-									<li><span><i class="icon-globe3"></i></span><a href="https://www.linkedin.com/in/emily-shoji/">LinkedIn</a></li>
-									<li><span><i class="icon-globe3"></i></span><a href="https://github.com/itsEmShoji">GitHub</a></li>
-								</ul>
-								<p><a href="Emily_Shoji_Resume_general.pdf" class="btn btn-primary btn-outline">View My Resume</a></p>
+					<div class="col-md-12">
+						<div class="work-entry animate-box">
+							<a href="work-single.html" class="work-img" style="background-image: url(images/nebula-logo-small.png);"></a>
+							<div class="col-md-10 col-md-offset-1">
+								<div class="desc">
+									<p>
+										Currently in production, Nebula is a programming language intended for expression.
+										Its use of multidimensional logical constructs to perform actions between nodes likens it to a Turing Machine.
+										These nodes are powerful; rather than simply holding data and linking to other structures, they can trigger actions on
+										the global environment and ultimately cause the execution of functions whose return values may ripple
+										back to the original node. Inspirations for the project include JavaScript, Python, Go, and Haskell.
+										Many of the constructs in Nebula's standard library as well as its primitive structures and types are
+										derived from these languages. Though it borrows some ideas from some of these well-known programming languages,
+										Nebula also offers a new programming paradigm, "spatial programming", an intuitive and fresh way to work with scoping.
+									 </p>
+									<p class="read"><a href="https://nebulalang.github.io/">View Website</a></p>
+								</div>
 							</div>
-							<div class="col-md-4 animate-box">
-								<img src="images/about-2.jpg" height="350px">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="work-entry animate-box">
+							<a href="work-single.html" class="work-img" style="background-image: url(images/OpenGLRoom.gif);"></a>
+							<div class="col-md-10 col-md-offset-1">
+								<div class="desc">
+									<p>
+										A room scene programmed using OpenGL in C++ using hierarchical modeling with added shading
+										and observed colors using Gouraud shading.
+									</p>
+									<p class="read"><a href="https://github.com/itsEmShoji/CMSI371-2018">View Github</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="work-entry animate-box">
+							<a href="work.html" class="work-img" style="background-image: url(images/PokeAPIDemo.gif);">
+								<div class="display-t">
+									<div class="work-name">
+										<h2>PokeAPI Front-end</h2>
+									</div>
+								</div>
+							</a>
+							<div class="col-md-10 col-md-offset-1">
+								<div class="desc">
+									<p>
+										Using the PokeAPI, Bootstrap, jQuery, JavaScript, HTML & CSS,
+										i created a front-end webpage that allows the user to search for Pokemon by name,
+										id number & type.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="work-entry animate-box">
+							<a href="work-single.html" class="work-img" style="background-image: url(images/mazeBall.gif);">
+								<div class="display-t">
+									<div class="work-name">
+										<h2>Maze Creator</h2>
+									</div>
+								</div>
+							</a>
+							<div class="col-md-10 col-md-offset-1">
+								<div class="desc">
+									<p>
+										Implemented using jQuery, JavaScript, CSS, HTML, handheld touch and accelerometer integration,
+										the user is able to create walls for a maze and roll the ball on screen around the obstacles.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
 		<footer>
-
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+					</div>
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<p>
@@ -142,7 +201,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							</p>
 						</div>
 					</div>
+				</div>
+			</div>
 		</footer>
+
+	</div>
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
