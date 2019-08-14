@@ -15,6 +15,11 @@ h6 {
 	font-weight: 700;
 	font-family: Montserrat;
 }
+
+img {
+	box-shadow: 3px 3px black;
+}
+
 hr.star-dark,
 hr.star-light {
 	max-width: 15rem;
@@ -43,7 +48,7 @@ hr.star-light {
 }
 hr.star-light:after {
 	color: #fff;
-	background-color: #9BDBFF;
+	background-color: #9bdbff;
 }
 hr.star-dark {
 	border-color: #2c3e50;
@@ -104,14 +109,14 @@ section h2 {
 	color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-	color: #9BDBFF;
+	color: #9bdbff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
 #mainNav .navbar-nav li.nav-item a.nav-link:focus {
 	color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-	color: #9BDBFF;
+	color: #9bdbff;
 }
 #mainNav .navbar-toggler {
 	font-size: 80%;
@@ -134,13 +139,13 @@ section h2 {
 	}
 	#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
 		color: #fff;
-		background: #9BDBFF;
+		background: #9bdbff;
 	}
 	#mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
 	#mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
 	#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
 		color: #fff;
-		background: #9BDBFF;
+		background: #9bdbff;
 	}
 	#mainNav.navbar-shrink {
 		padding-top: .5rem;
@@ -275,7 +280,7 @@ header.masthead h2 {
 	opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-	color: #9BDBFF;
+	color: #9bdbff;
 }
 form .row:first-child .floating-label-form-group {
 	border-top: 1px solid #e9ecef;
@@ -290,7 +295,7 @@ form .row:first-child .floating-label-form-group {
 	background-color: #1a252f;
 }
 a {
-	color: #9BDBFF;
+	color: #9bdbff;
 }
 a:active,
 a:focus,
@@ -301,26 +306,26 @@ a:hover {
 	border-width: 2px;
 }
 .bg-primary {
-    background-image: url(../img/pillbox.jpg);
-    background-size: cover;
+	background-image: url(../img/pillbox.jpg);
+	background-size: cover;
 }
 .bg-secondary {
 	background-color: #2c3e50 !important;
 }
 
 .bg-default {
-    background-color: #9BDBFF;
+	background-color: #9bdbff;
 }
 
 .text-primary {
-	color: #9BDBFF !important;
+	color: #9bdbff !important;
 }
 .text-secondary {
 	color: #2c3e50 !important;
 }
 .btn-primary {
-	background-color: #9BDBFF;
-	border-color: #9BDBFF;
+	background-color: #9bdbff;
+	border-color: #9bdbff;
 }
 .btn-primary:active,
 .btn-primary:focus,
